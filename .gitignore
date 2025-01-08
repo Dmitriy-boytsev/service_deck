@@ -1,0 +1,31 @@
+# Виртуальное окружение
+venv/
+
+# Компилированные файлы Python
+__pycache__/
+*.pyc
+
+# Лог-файлы и временные файлы
+*.log
+*.tmp
+
+# Конфиденциальные файлы
+.env
+
+# IDE и редакторы
+.idea/
+.vscode/
+
+# Зависимости Python
+*.dist-info/
+*.egg-info/
+
+# Docker
+docker-compose.override.yml
+
+# Alembic
+alembic/versions/
+alembic.ini
+
+.DS_Store
+
