@@ -81,7 +81,7 @@ async def parse_email(mail, email_id):
                 else:
                     body = msg.get_payload(decode=True).decode()
                 logger.info(f"Обрабатываем письмо от {sender_name} ({sender_email}) с темой: {subject}")
-                if sender_name == "db" and sender_email == "dboytsev@gmail.com":
+                if sender_name == settings.SENDER_NAME and sender_email == settings.SMTP_EMAIL:
                     return subject, sender_email, body
                 else:
                     logger.info(f"Игнорируем письмо от {sender_name} ({sender_email}) с темой: {subject}")

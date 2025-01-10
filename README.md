@@ -61,6 +61,7 @@ SMTP_SERVER=smtp.gmail.com
 SMTP_PORT=587
 SMTP_EMAIL=your_email@gmail.com
 SMTP_PASSWORD=your_password
+SENDER_NAME=name_gmail
 
 # IMAP настройки
 IMAP_SERVER=imap.gmail.com

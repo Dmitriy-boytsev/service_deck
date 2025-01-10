@@ -22,6 +22,7 @@ class Settings(BaseSettings):
     SMTP_PORT: int
     SMTP_EMAIL: str
     SMTP_PASSWORD: str
+    SENDER_NAME: str
 
     # Добавляем параметры для почты считывания
     IMAP_SERVER: str
